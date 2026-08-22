@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Predictive Maintenance</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <header>
+        <h1>AI Predictive Maintenance</h1>
+        <p>Vehicle Monitoring Dashboard</p>
+    </header>
+
+    <main>
+
+        <section class="summary">
+            <div class="card">
+                <h2>Total Vehicles</h2>
+                <p id="total-vehicles">0</p>
+            </div>
+
+            <div class="card">
+                <h2>Healthy</h2>
+                <p id="healthy-vehicles">0</p>
+            </div>
+
+            <div class="card">
+                <h2>Needs Attention</h2>
+                <p id="attention-vehicles">0</p>
+            </div>
+        </section>
+
+        <section class="vehicle-section">
+
+            <h2>Vehicle Information</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Vehicle ID</th>
+                        <th>Model</th>
+                        <th>Mileage</th>
+                        <th>Temperature</th>
+                        <th>Fuel Consumption</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+
+                <tbody id="vehicle-table-body">
+                    <!-- JavaScript will add vehicle data here -->
+                </tbody>
+            </table>
+
+        </section>
+
+    </main>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
