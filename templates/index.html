@@ -19,7 +19,10 @@
 
     <main>
 
+        <!-- SUMMARY CARDS -->
+
         <section class="summary">
+
             <div class="card">
                 <h2>Total Vehicles</h2>
                 <p id="total-vehicles">0</p>
@@ -34,32 +37,68 @@
                 <h2>Needs Attention</h2>
                 <p id="attention-vehicles">0</p>
             </div>
+
+            <div class="card">
+                <h2>Maintenance Required</h2>
+                <p id="maintenance-vehicles">0</p>
+            </div>
+
         </section>
+
+
+        <!-- VEHICLE TABLE -->
 
         <section class="vehicle-section">
 
             <h2>Vehicle Information</h2>
 
-            <table>
-                <thead>
-                    <tr>
-                        <th>Vehicle ID</th>
-                        <th>Model</th>
-                        <th>Mileage</th>
-                        <th>Temperature</th>
-                        <th>Fuel Consumption</th>
-                        <th>Status</th>
-                    </tr>
-                </thead>
+            <div class="table-container">
 
-                <tbody id="vehicle-table-body">
-                    <!-- JavaScript will add vehicle data here -->
-                </tbody>
-            </table>
+                <table>
+
+                    <thead>
+
+                        <tr>
+                            <th>Vehicle ID</th>
+                            <th>Model</th>
+                            <th>Mileage</th>
+                            <th>Temperature</th>
+                            <th>Fuel Consumption</th>
+                            <th>Battery Voltage</th>
+                            <th>Engine Vibration</th>
+                            <th>Oil Level</th>
+                            <th>Tire Pressure</th>
+                            <th>Health Score</th>
+                            <th>Status</th>
+                        </tr>
+
+                    </thead>
+
+                    <tbody id="vehicle-table-body">
+                        <!-- JavaScript will add vehicle data here -->
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+
+        <!-- VEHICLE ANALYSIS -->
+
+        <section class="analysis-section">
+
+            <h2>Maintenance Analysis</h2>
+
+            <div id="analysis-container">
+                <!-- JavaScript will add analysis here -->
+            </div>
 
         </section>
 
     </main>
+
 
     <script src="{{ url_for('static', filename='script.js') }}"></script>
 
