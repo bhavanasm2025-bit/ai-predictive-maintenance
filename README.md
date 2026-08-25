@@ -178,43 +178,61 @@ The dashboard provides a visual representation of vehicle health status and AI p
 
 ### 1. Clone the repository
 
+```bash
 git clone YOUR_GITHUB_REPOSITORY_URL
+```
 
 ### 2. Create a virtual environment
 
+```bash
 python -m venv venv
+```
 
 ### 3. Activate the virtual environment
 
-Windows:
+**Windows:**
 
+```bash
 venv\Scripts\activate
+```
 
 ### 4. Install dependencies
 
+```bash
 pip install -r requirements.txt
+```
 
 ### 5. Train the model
 
+```bash
 cd backend
+```
 
+```bash
 python train_model.py
+```
 
 ### 6. Start Flask
 
+```bash
 python app.py
+```
 
 ### 7. Open the dashboard
 
+```text
 http://127.0.0.1:5000
+```
+
 
 ## Example Predictions
 
-Vehicle 001 → Low Risk
+| Vehicle     | Temperature | Tire Pressure | Vibration | AI Prediction |
+| ----------- | ----------: | ------------: | --------: | ------------- |
+| Vehicle 001 |        72°C |        32 PSI |       2.1 | Low           |
+| Vehicle 002 |        88°C |        27 PSI |       3.5 | Medium        |
+| Vehicle 003 |        95°C |        24 PSI |       4.2 | High          |
 
-Vehicle 002 → Medium Risk
-
-Vehicle 003 → High Risk
 
 ## Future Improvements
 
