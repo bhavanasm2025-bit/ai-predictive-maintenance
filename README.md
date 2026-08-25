@@ -244,6 +244,15 @@ http://127.0.0.1:5000
 - Interactive charts
 - Deployment to a cloud platform
 
+## Team Collaboration
+
+This project was developed through teamwork and collaboration.
+
+- **Bhavana S M** – Backend development, AI predictive model, API integration, project documentation, and GitHub management.
+- **Brindhaa S M** – Frontend development and dashboard design.
+
+We collaborated using GitHub to integrate the frontend and backend components and build the complete AI Predictive Maintenance system.
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
