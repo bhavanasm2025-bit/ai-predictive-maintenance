@@ -233,6 +233,7 @@ http://127.0.0.1:5000
 | Vehicle 002 |        88°C |        27 PSI |       3.5 | Medium        |
 | Vehicle 003 |        95°C |        24 PSI |       4.2 | High          |
 
+## Demo Video
 
 ## Future Improvements
 
@@ -242,3 +243,7 @@ http://127.0.0.1:5000
 - Predictive maintenance alerts
 - Interactive charts
 - Deployment to a cloud platform
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
