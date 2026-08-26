@@ -151,6 +151,7 @@ ai-predictive-maintenance/
 │   └── index.html
 │
 ├── .gitignore
+├── LICENSE
 ├── README.md
 └── requirements.txt
 ```
