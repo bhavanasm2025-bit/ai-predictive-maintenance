@@ -233,7 +233,11 @@ http://127.0.0.1:5000
 | Vehicle 002 |        88°C |        27 PSI |       3.5 | Medium        |
 | Vehicle 003 |        95°C |        24 PSI |       4.2 | High          |
 
-## Demo Video
+## 🎥 Project Demo
+
+A complete demonstration of the AI Predictive Maintenance system is available below.
+
+▶️ [Watch the Demo Video](https://www.youtube.com/watch?v=1JPdy3u0eBI)
 
 ## Future Improvements
 
